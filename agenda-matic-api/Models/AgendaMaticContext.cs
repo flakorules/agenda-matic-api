@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 
 namespace AgendaMatic.api.Models
 {
-    public class AgendaMaticContext:DbContext
+    public class AgendaMaticContext : DbContext
     {
         public AgendaMaticContext(DbContextOptions options)
            : base(options)
